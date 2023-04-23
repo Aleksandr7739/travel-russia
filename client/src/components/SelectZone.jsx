@@ -1,4 +1,6 @@
+import './css-for-components/SelectZone.css';
 import React, { useState, useEffect } from 'react';
+
 
 function SelectZone() {
     const getRussianCities = async () => {
@@ -8,9 +10,10 @@ function SelectZone() {
     };
     return (
         <>
-            <div>
-                <div onClick={() => { getRussianCities() }}>Россия</div>
-                <div>Мир</div>
+            <h1>Где вы собираетесь путешествовать?</h1>
+            <div className='selection'>
+                <div className='russia' onClick={() => { getRussianCities() }}>russia</div>
+                <div className='globus'>Мир</div>
             </div>
         </>
     )
