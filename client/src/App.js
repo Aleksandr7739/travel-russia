@@ -1,10 +1,10 @@
-import SelectZone from './components/SelectZone';
 import './App.css';
+import RussianCities from './components/RussianCities';
 
 function App() {
   return (
     <div className="App">
-      <SelectZone />
+      <RussianCities />
     </div>
   );
 }
