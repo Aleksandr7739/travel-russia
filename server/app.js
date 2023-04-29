@@ -30,6 +30,15 @@ app.get('/', function (req, res) {
 app.get('/travel-city', function (req, res) {
     console.log("Запрос получен");
 
+    const planet = ['http://htmlweb.ru/geo/api.php?location=Европа&json&api_key=b886b7107781f70fe814d4af04754e0b', 'http://htmlweb.ru/geo/api.php?location=Азия&json&api_key=b886b7107781f70fe814d4af04754e0b', 'http://htmlweb.ru/geo/api.php?location=Африка&json&api_key=b886b7107781f70fe814d4af04754e0b', 'http://htmlweb.ru/geo/api.php?country=ru&json&api_key=b886b7107781f70fe814d4af04754e0b'];
+
+    for (let i = 0; i < planet.length; i++) {
+        fetch(planet[i])
+            .then(res => res.json())
+            .then(res => console.log(res));
+    }
+
+
     pool.connect(function (err, client, done) {
         console.log('Проверка бэка номер 1')
         if (err) {
