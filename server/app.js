@@ -11,7 +11,7 @@ app.use(cors({
 const config = {
     user: 'postgres',
     database: 'travel-database',
-    password: 'postgres',
+    password: 'Gr345tem',
     port: 5432
 };
 

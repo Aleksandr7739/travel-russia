@@ -1,0 +1,137 @@
+.russianCities {
+    position: absolute;
+    /* background-image: url('../img/background.svg'); */
+    background-size: cover;
+    width: 2025px;
+    height: 1080px;
+}
+
+.nav {
+    position: fixed;
+    z-index: 2;
+    width: 1017px;
+    height: 58px;
+    background-image: url('../img/navbar.svg');
+    border-radius: 30px;
+    margin-left: 451px;
+    margin-top: 26px;
+}
+
+.search_btn {
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    left: 950px;
+    top: 13px;
+    /* background-image: url('../img/search.svg'); */
+    cursor: pointer;
+}
+
+.n1 {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.logo {
+    position: absolute;
+    width: 89px;
+    height: 57.36px;
+    left: 0px;
+    top: 0px;
+    background: url('../img/logo.svg');
+    border-radius: 114.5px;
+}
+
+.adds {
+    position: absolute;
+    width: 1017px;
+    height: 360px;
+    left: 451px;
+    top: 139px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city {
+    position: absolute;
+    display: inline-block;
+    width: 247px;
+    height: 191px;
+    left: 231px;
+    top: 583px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_1 {
+    position: absolute;
+    display: inline-block;
+    width: 247px;
+    height: 191px;
+    left: 631px;
+    top: 583px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_2 {
+    position: absolute;
+    display: inline-block;
+    width: 247px;
+    height: 191px;
+    left: 1031px;
+    top: 583px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_3 {
+    position: absolute;
+    display: inline-block;
+    width: 247px;
+    height: 191px;
+    left: 1431px;
+    top: 583px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_4 {
+    position: absolute;
+    width: 247px;
+    height: 191px;
+    left: 231px;
+    top: 850px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_5 {
+    position: absolute;
+    width: 247px;
+    height: 191px;
+    left: 631px;
+    top: 850px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_6 {
+    position: absolute;
+    width: 247px;
+    height: 191px;
+    left: 1031px;
+    top: 850px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.city_7 {
+    position: absolute;
+    width: 247px;
+    height: 191px;
+    left: 1431px;
+    top: 850px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
