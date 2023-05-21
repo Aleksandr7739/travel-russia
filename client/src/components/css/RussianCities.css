@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 2;
     width: 1017px;
-    height: 58px;
+    height: 57px;
     background-image: url('../img/navbar.svg');
     border-radius: 30px;
     margin-left: 451px;
@@ -30,6 +30,7 @@
 .n1 {
     display: inline-block;
     margin-left: 80px;
+    color: black;
 }
 
 .logo {
@@ -52,86 +53,21 @@
     border-radius: 10px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 583px;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 67px;
+}
+
 .city {
-    position: absolute;
-    display: inline-block;
     width: 247px;
     height: 191px;
-    left: 231px;
-    top: 583px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_1 {
-    position: absolute;
-    display: inline-block;
-    width: 247px;
-    height: 191px;
-    left: 631px;
-    top: 583px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_2 {
-    position: absolute;
-    display: inline-block;
-    width: 247px;
-    height: 191px;
-    left: 1031px;
-    top: 583px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_3 {
-    position: absolute;
-    display: inline-block;
-    width: 247px;
-    height: 191px;
-    left: 1431px;
-    top: 583px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_4 {
-    position: absolute;
-    width: 247px;
-    height: 191px;
-    left: 231px;
-    top: 850px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_5 {
-    position: absolute;
-    width: 247px;
-    height: 191px;
-    left: 631px;
-    top: 850px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_6 {
-    position: absolute;
-    width: 247px;
-    height: 191px;
-    left: 1031px;
-    top: 850px;
-    background: #D9D9D9;
-    border-radius: 10px;
-}
-
-.city_7 {
-    position: absolute;
-    width: 247px;
-    height: 191px;
-    left: 1431px;
-    top: 850px;
     background: #D9D9D9;
     border-radius: 10px;
 }

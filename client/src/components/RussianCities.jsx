@@ -1,28 +1,38 @@
 import React from "react";
 import './css/RussianCities.css';
+import Marquee from "react-fast-marquee";
+import { Link } from "react-router-dom";
 
 const RussianCities = function () {
     return (
         <div className="russianCities" >
             <div className="nav">
-                <div className="search_btn"></div>
-                <h4 className="n1">Популярные туры</h4>
-                <h4 className="n1">Авиабилеты</h4>
-                <h4 className="n1">Экскурсии</h4>
-                <h4 className="n1">Распродажи</h4>
-                <div className="logo" ></div>
+                <div className="search_btn" onClick={() => { prompt('Введите запрос') }}></div>
+                <Link to={'/popular-tours'}><h4 className="n1">Популярные туры</h4></Link> 
+                <Link to={'/avia-tickets'}><h4 className="n1">Авиабилеты</h4></Link> 
+                <Link to={'/excursions'}><h4 className="n1">Экскурсии</h4></Link>   
+                <Link to={'/sales'}><h4 className="n1">Распродажи</h4></Link>
+                <div><Link to={'/'}><img className="logo" alt=""></img></Link></div>
             </div>
-            <div className="adds"></div>
-            <div className="city"></div>
-            <div className="city_1"></div>
-            <div className="city_2"></div>
-            <div className="city_3"></div>
-            <div className="city_4"></div>
-            <div className="city_5"></div>
-            <div className="city_6"></div>
-            <div className="city_7"></div>
-        </div>
+            <div className="adds">
+                <Marquee style={{ marginTop: '180px' }} pauseOnHover={true}>
+                    Some adds
+                </Marquee>
+            </div>
+            <div className="container">
+                <Link to={'/city'}><div className="city"></div></Link> 
+                <Link to={'/city'}><div className="city"></div></Link> 
+                <Link to={'/city'}><div className="city"></div></Link> 
+                <Link to={'/city'}><div className="city"></div></Link> 
+            </div>
+            <div className="container_2">
+                <Link to={'/city'}><div className="city"></div></Link> 
+                <Link to={'/city'}><div className="city"></div></Link> 
+                <Link to={'/city'}><div className="city"></div></Link> 
+                <Link to={'/city'}><div className="city"></div></Link> 
+            </div>
+        </div >
     )
 }
 
-export default RussianCities
+export default RussianCities;

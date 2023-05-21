@@ -32,8 +32,43 @@
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
+}
+
+.russia {
+  background-image: url('./components/img/russian-flag.jpg');
+  background-size: cover;
+  width: 385px;
+  height: 240px;
+}
+
+.globus {
+  background-image: url('./components/img/globus.svg');
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.selection {
+  /* margin-top: 150px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  background-color: grey;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+nav {
+  width: 100%;
 }

@@ -1,0 +1,126 @@
+.town {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/cities_2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_city {
+    position: absolute;
+    width: 1017px;
+    height: 58px;
+    top: 45px;
+    background-image: url('../img/navbar.svg');
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 29px;
+}
+
+.search {
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    left: 965px;
+    top: 13px;
+    background-image: url('../img/search.svg');
+    cursor: pointer;
+}
+
+.info {
+    margin-left: -270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n2 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 18px;
+    color: black;
+}
+
+.tag {
+    position: absolute;
+    width: 89px;
+    height: 57.36px;
+    left: 0px;
+    top: 0px;
+    background: url('../img/logo.svg');
+    border-radius: 114.5px;
+}
+
+.search_field {
+    position: absolute;
+    width: 262px;
+    height: 45px;
+    left: 691px;
+    top: 6px;
+    background-color: white;
+    border-radius: 31px;
+    border-width: 1px;
+}
+
+.map {
+    position: absolute;
+    width: 502px;
+    height: 319px;
+    left: 431px;
+    top: 188px;
+    background: rgba(217, 217, 217, 0.75);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+}
+
+.tickets {
+    position: absolute;
+    width: 502px;
+    height: 319px;
+    left: 431px;
+    top: 631px;
+    background: rgba(217, 217, 217, 0.75);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+}
+
+.tour {
+    position: absolute;
+    width: 504px;
+    height: 764px;
+    top: 186px;
+    background: rgba(217, 217, 217, 0.75);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+}
+
+.img_1 {
+    position: absolute;
+    width: 468px;
+    height: 217px;
+    left: 18px;
+    top: 270px;
+    background-image: url('../img/img_1.svg');
+    border-radius: 10px;
+}
+
+.img_2 {
+    position: absolute;
+    width: 235px;
+    height: 248px;
+    left: 18px;
+    top: 500px;
+    background-image: url('../img/img_2.svg');
+    border-radius: 10px;
+}
+
+.img_3 {
+    position: absolute;
+    width: 217px;
+    height: 248px;
+    left: 268px;
+    top: 500px;
+    background-image: url('../img/img_3.svg');
+    border-radius: 10px;
+}
