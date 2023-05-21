@@ -1,0 +1,48 @@
+.map {
+    position: absolute;
+width: 702px;
+height: 819px;
+left: 127px;
+top: 386px;
+
+background: rgba(217, 217, 217, 0.75);
+backdrop-filter: blur(2.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.city-info {
+    background-image: url("../img/pliazh_palmy_more_216172_3840x2160.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+width: 704px;
+height: 1714px;
+left: 939px;
+top: 386px;
+
+background: rgba(217, 217, 217, 0.75);
+backdrop-filter: blur(2.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.tickets {
+    position: absolute;
+width: 702px;
+height: 841px;
+left: 131px;
+top: 1259px;
+
+background: rgba(217, 217, 217, 0.75);
+backdrop-filter: blur(2.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
