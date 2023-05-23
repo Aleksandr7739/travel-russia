@@ -63,12 +63,17 @@
     border-width: 1px;
 }
 
+.tour_space {
+    position: absolute;
+    width: 1104px;
+    height: 764px;
+    top: 186px;
+}
+
 .map {
     position: absolute;
     width: 502px;
     height: 319px;
-    left: 431px;
-    top: 188px;
     background: rgba(217, 217, 217, 0.75);
     backdrop-filter: blur(2.5px);
     border-radius: 10px;
@@ -78,8 +83,7 @@
     position: absolute;
     width: 502px;
     height: 319px;
-    left: 431px;
-    top: 631px;
+    top: 445px;
     background: rgba(217, 217, 217, 0.75);
     backdrop-filter: blur(2.5px);
     border-radius: 10px;
@@ -87,9 +91,9 @@
 
 .tour {
     position: absolute;
-    width: 504px;
+    width: 502px;
     height: 764px;
-    top: 186px;
+    left: 602px;
     background: rgba(217, 217, 217, 0.75);
     backdrop-filter: blur(2.5px);
     border-radius: 10px;
@@ -99,7 +103,7 @@
     position: absolute;
     width: 468px;
     height: 217px;
-    left: 18px;
+    left: 17px;
     top: 270px;
     background-image: url('../img/img_1.svg');
     border-radius: 10px;
@@ -107,20 +111,56 @@
 
 .img_2 {
     position: absolute;
-    width: 235px;
-    height: 248px;
-    left: 18px;
-    top: 500px;
+    width: 226px;
+    height: 124px;
+    left: 17px;
+    top: 497px;
     background-image: url('../img/img_2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
 .img_3 {
     position: absolute;
-    width: 217px;
-    height: 248px;
-    left: 268px;
-    top: 500px;
+    width: 226px;
+    height: 124px;
+    left: 258px;
+    top: 497px;
     background-image: url('../img/img_3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.img_4 {
+    position: absolute;
+    width: 152px;
+    height: 120px;
+    left: 17px;
+    top: 631px;
+    background-image: url('../img/img_4.svg');
+    border-radius: 10px;
+}
+
+.img_5 {
+    position: absolute;
+    width: 152px;
+    height: 120px;
+    left: 175px;
+    top: 631px;
+    background-image: url('../img/img_5.svg');
+    border-radius: 10px;
+}
+
+.img_6 {
+    position: absolute;
+    width: 152px;
+    height: 120px;
+    left: 333px;
+    top: 631px;
+    background-image: url('../img/img_6.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }

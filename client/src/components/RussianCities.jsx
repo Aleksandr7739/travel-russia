@@ -6,18 +6,22 @@ import { Link } from "react-router-dom";
 const RussianCities = function () {
     return (
         <div className="russianCities" >
-            <div className="nav">
-                <div className="search_btn" onClick={() => { prompt('Введите запрос') }}></div>
-                <Link to={'/popular-tours'}><h4 className="n1">Популярные туры</h4></Link> 
-                <Link to={'/avia-tickets'}><h4 className="n1">Авиабилеты</h4></Link> 
-                <Link to={'/excursions'}><h4 className="n1">Экскурсии</h4></Link>   
-                <Link to={'/sales'}><h4 className="n1">Распродажи</h4></Link>
-                <div><Link to={'/'}><img className="logo" alt=""></img></Link></div>
+            <div className="nav_space">
+                <div className="nav">
+                    <div className="search_btn" onClick={() => { prompt('Введите запрос') }}></div>
+                    <Link to={'/popular-tours'}><h4 className="n1">Популярные туры</h4></Link> 
+                    <Link to={'/avia-tickets'}><h4 className="n1">Авиабилеты</h4></Link> 
+                    <Link to={'/excursions'}><h4 className="n1">Экскурсии</h4></Link>   
+                    <Link to={'/sales'}><h4 className="n1">Распродажи</h4></Link>
+                    <div><Link to={'/'}><img className="logo" alt=""></img></Link></div>
+                </div>
             </div>
-            <div className="adds">
-                <Marquee style={{ marginTop: '180px' }} pauseOnHover={true}>
-                    Some adds
-                </Marquee>
+            <div className="adds_space">    
+                <div className="adds">
+                    <Marquee pauseOnHover={true}>
+                        Some adds
+                    </Marquee>
+                </div>
             </div>
             <div className="container">
                 <Link to={'/city'}><div className="city"></div></Link> 
